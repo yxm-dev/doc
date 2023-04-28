@@ -11,7 +11,7 @@ In very few words, I use:
 I try to do everything is possible inside `Xterm`. If something cannot be realized in a terminal I realize it in a browser. I use:
 * `Firefox`, for diary stuff
 * `Tor`, when privacy is needed.
-My text editor is `vim`.
+My text editor is `vim`. I use `mutt` as my mail client.
        
 operating system
 -----------------
@@ -94,13 +94,16 @@ tools
     * used in `cvt.sh`
 * `sox`: command line audio converter (*)
     * used in `cvt.sh` 
-* `zathura`: simple pdf reader.
+* `zathura`: simple pdf reader. (*)
+    - `zathura-djvu`: add compatibility with `djvu` files (*)
+    - `zathura-pdf-mu-pdf`: add some features and compatibility with `epub` files (*)
 * `rsync`: command line to sync files locally and remotely
     * used in  `sync.sh`
 * `rclone`: command line to sync files with/between clouds
     * used in `bkp.sh`
 * `git`: version control system
-* `github-cli`: command line client for Github.
+* `github-cli`: command line client for Github
+* `docker`: containerization application
     
 compilers/interpreters
 ------------------------

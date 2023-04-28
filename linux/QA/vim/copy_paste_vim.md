@@ -1,12 +1,12 @@
 ---
-title: Copy and Paste to Clipboard in Vim
+title: copy and paste to clipboard in Vim
 author: Yuri X. Martins
 ---
 
 * **Remark.** The following is for the X11 windows environment.
 
-Compatibility
-=================
+compatibility
+--------------
 
 The first step is to ensure that your `Vim` installation is compatible with clipboard.
 
@@ -28,8 +28,8 @@ If `+clipboard` and `+xterm_clipboard` are reported (notice the `+` sign), your 
     ```
 3. Repeat step (1.) to confirm that your `vim` installation is now compatibility with clipboard. 
 
-Configuration
-================
+configuration
+---------------
 
 In your `vimrc` file (located in `~/.vim`) add the following:
 ```
@@ -38,8 +38,8 @@ In your `vimrc` file (located in `~/.vim`) add the following:
     set go+=a
 ```
 
-Keybind
-==========
+keybind
+-----------
 
 As a final (and optional step), you can replace Vim's standard keybinds to copy (`y`), cut (`c`) and paste (`p`) with your favorite ones.
 
@@ -47,12 +47,12 @@ As a final (and optional step), you can replace Vim's standard keybinds to copy 
 
 For example, to cut, copy and paste with `ctrl+c`, `ctrl+x` and `ctrl+v`, add the following to your `vimrc` file:
 ```
-    vnoremap <c-x> "+ci
+    vnoremaremap <c-x> "+ci
     vnoremap <c-c> "+yi
     inoremap <c-v> <esc> "+pi
 ```
 
-References
-==============
+references
+-------------
 
 * https://stackoverflow.com/questions/11489428/how-to-make-vim-paste-from-and-copy-to-systems-clipboard 

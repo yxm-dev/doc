@@ -17,3 +17,9 @@ title: "dev/doc/linux/QA/devices"
     * If even after configuration with `libinput` the device is not working properly, you should try to install `Synaptics` drivers and then follows one of the two approaches described above - see [here](https://wiki.archlinux.org/title/Touchpad_Synaptics). 
     * For example, in the case of touchpad in Arch Linux, try the old package `xf86-input-synaptics`.  
 
+* Q: how to configure the backlight brightness? It would be interesting to have hotkeys to increase/decrease it.
+* A:
+    1. configure the backlight driver;
+    2. install a software to manage backlight or use of a simple bash script;
+    3. create keybindings to map keys to the software/script functionalities.
+    * see [here](brightness) for a detailed explanation.

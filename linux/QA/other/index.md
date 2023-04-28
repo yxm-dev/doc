@@ -8,5 +8,6 @@ title: "dev/doc/linux/QA/other"
 ```
     find -type f -iname ".*.*.??????" -delete
 ```
-    2. Alternatively, since temporary files are deleted in the shutdown processes, a reboot also fixes the issue.
+    1. Alternatively, since temporary files are deleted in the shutdown processes, a reboot also fixes the issue.
+
 

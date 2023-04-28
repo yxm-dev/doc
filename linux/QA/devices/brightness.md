@@ -1,8 +1,6 @@
 ---
-# Configuring Keybind to Control Brightness
-
+title: configuring backlight brightness and creating hotkeys to manage it
 ---
-
 
 There are three steps:
 
