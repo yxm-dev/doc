@@ -1,5 +1,5 @@
 ---
-title: "dev/doc/linux/QA/error"
+title: "doc/QA/error"
 ---
 
 * Q: I'm facing with a message saying that `/dev/null` was not found.

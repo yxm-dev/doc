@@ -1,5 +1,5 @@
 ---
-title: "dev/doc/linux/QA/vim"
+title: "doc/QA/vim"
 ---
 
 * Q: my colorscheme is not being recognized by `Vim` but it does if I force a `:set colorcheme` inside some document.

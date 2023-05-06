@@ -1,5 +1,5 @@
 ---
-title: "dev/doc/linux/QA/environment"
+title: "doc/QA/environment"
 ---
 
 * Q: I created a keybind in `i3` that executes a bash script defined in `~/.bashrc`, but it does not work. Why?

@@ -1,5 +1,5 @@
 ---
-title: "dev/doc/linux/QA/disks"
+title: "doc/QA/disks"
 ---
 
 * Q: how to create a `.iso` file from a directory of files using builtin commands?

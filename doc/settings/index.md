@@ -1,23 +1,27 @@
 ---
-title: "dev/doc/linux/settings"
+title: "doc/settings"
 ---
 
-The following is a list of softwares and settings I have been used in the last years. The marked items are those that we are currently using.
+The following is a list of softwares and settings I have been used in the last years. The marked items are those that I'm currently using.
 
 In very few words, I use:
-* `Arch`, as my linux distribution
-* `i3`, as my windows manager
-* `Xterm` as my terminal.
-I try to do everything is possible inside `Xterm`. If something cannot be realized in a terminal I realize it in a browser. I use:
-* `Firefox`, for diary stuff
-* `Tor`, when privacy is needed.
+
+- `Arch Linux`, as my linux distribution
+- `i3`, as my windows manager
+- `Xterm` as my terminal emulator.
+
+I try to do everything is possible inside `Xterm`. If something cannot be embedded in a terminal I embed it in a browser. For that I use:
+
+- `Firefox`, for diary stuff
+- `Tor`, when privacy is needed.
+
 My text editor is `vim`. I use `mutt` as my mail client.
        
 operating system
 -----------------
 
-* Lubuntu
-* [Arch](arch) (*)
+* `Lubuntu`
+* `Arch` (*)
 
 windows system
 ----------------
@@ -27,14 +31,14 @@ windows system
 windows manager
 -----------------
 
-* Openbox
+* `Openbox`
 * `i3`: tiling windows manager
 
 terminal emulator
 --------------------
 
-* Lxterminal
-* Xterm (*)
+* `Lxterminal`
+* `Xterm` (*)
 
 * **Remark**: I use `Liberation Mono` font. In Arch it is in the package `ttf-liberation`. 
 
@@ -110,66 +114,74 @@ compilers/interpreters
 
 * `Bash` (*)
     * is in `base` package
+    
 * `GNU Make`
     * require part of the packages in `base-devel`.
     * if missing something, run `automake --add-missing`
-* [Texlive](Texlive):
+    
+* `Texlive`:
     * with ... for:
         * ...
-* [Python](Python)
-    * `python-pip`: package manager for `python`
-        - `khard`
-* [Haskell](Haskell)
+        
+* `Python` (*)
+    * `python-pip`: package manager for `python` (*)
+        - `khard` (use with `mutt`) (*)
+        - `pandoc_static_katex` (for `sw.sh`): [link](https://github.com/Zaharid/pandoc_static_katex) (*)
+
+* `Haskell` (*)
     * a lot of libraries
-        - `pandoc` 
-* [Ruby](Ruby)
-    * `rubygems`, for:
+        - `pandoc` (*)
+        
+* `Ruby`
+    * `rubygems`: package manager for `Ruby`
         - `Jekyll`
-* [Go](Go), for: 
-    *  `spotify-tui`
-* [Nodejs](Node)
-    * `npm`: package manager for `Node.js`.
+        
+* `Go`
+    * `spotify-tui`
+    
+* `Node.js` (*)
+    * `npm`: package manager for `Node.js`. (*)
         - `dicio`: [link](npm install --global dicio)
         - `gramma`: [link](https://github.com/caderek/gramma)
-
+        - `katex` (for `pandoc_static_katex`):
+        
 text
 ------
 
 * `Vim` (cli): text-based terminal-based extendable text editor (*).
     * `Vimwiki` (*)
-        * `Vimwiki-cli` ([link](https://github.com/sstallion/vimwiki-cli))
+        * `Vimwiki-cli`: [link](https://github.com/sstallion/vimwiki-cli)
         * `Vim-Calendar`
     * `Vimtex` (*)
         * `Vimtex-Colors` (*)
-    * [fzf-bibtex](fzf-bibtex): bibtex manager based on `fzf`.  ([link](https://github.com/msprev/fzf-bibtex))
+    * `fzf-bibtex`: bibtex manager based on `fzf` - [link](https://github.com/msprev/fzf-bibtex)
     * `Vim-Snippets`
-    * usar vim+python: [link](https://realpython.com/vim-and-python-a-match-made-in-heaven/)
 * `Nano`: used only to install Arch.
 
 web
 ----
 
 * Browsers
-    * `W3M`: text-based terminal-based browser.
+    * `w3m`: text-based terminal-based browser.
     * `Firefox`: open-source browser.
     * `Tor`: privacy-based browser.
         
 * Email
     * `Mutt`: text-based email client (*) 
-    * `Abook`: address manager compatible with Mutt [link](https://github.com/hhirsch/abook)  
+    * `Abook`: address manager compatible with Mutt - [link](https://github.com/hhirsch/abook)  
     * `Khard`: address manager compatible with Mutt (*)
 
 media
 --------
 
-* Spotifyd: daemon for Spotify
-* Spotify-Tui: terminal-based user interface for Spotify
+* `spotifyd`: daemon for Spotify
+* `spotify-tui`: terminal-based user interface for Spotify
 
 other
 -------
 
-* `translate-shell`: terminal-based interface for google translator ([link](https://github.com/soimort/translate-shell))
+* `translate-shell`: terminal-based interface for google translator - [link](https://github.com/soimort/translate-shell)
     * `trsl-sh`: simple interactive mode for `translate-shell`
-* `dicio`: CLI for [dicio.com.br](https://www.dicio.com.br/), a Portuguese dictionary ([link](npm install --global dicio))
-* `grammar`: ClI grammar checker based on [LanguageTool](https://languagetool.org/) ([link](https://github.com/caderek/gramma))
+* `dicio`: CLI for [dicio.com.br](https://www.dicio.com.br/), a Portuguese dictionary - [link](npm install --global dicio)
+* `grammar`: ClI grammar checker based on [LanguageTool](https://languagetool.org/) - [link](https://github.com/caderek/gramma)
 

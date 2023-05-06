@@ -1,14 +1,9 @@
 ---
-title: "dev/doc/ideas"
+title: "dev/proj"
 ---
 
 texts
 --------
-
-* Linux: Pursuing Intuition
-    1. Big Picture
-    2. Intuitive Immersion
-    3. Practical Summary
 
 * Programming Languages: A Concise View
 
