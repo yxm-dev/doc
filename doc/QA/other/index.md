@@ -5,7 +5,7 @@ title: "doc/QA/other"
 **Q**: `rsync` is repeating the synchronization ordering even after switching source and target files. Why?<br>
 **A**: `rsync` stores temporary files. Remove them using the following or do a reboot:
 
-```
+```bash
     find -type f -iname ".*.*.??????" -delete
 ```
 

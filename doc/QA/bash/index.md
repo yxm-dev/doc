@@ -2,8 +2,10 @@
 title: "doc/QA/bash"
 ---
 
-**Q**: how to execute an external application `foo` in terminal such that the shell section becomes free to use and clean?<br>
-**A**: use `foo & disown` to execute the application in background and `clear` to clean the terminal. Thus, the issue is fixed with `foo & disown | clear.`
+**Q**: how to execute an external application `foo` in terminal such that the shell section becomes free to
+use and clean?<br>
+**A**: use `foo & disown` to execute the application in background and `clear` to clean the terminal. Thus,
+the issue is fixed with `foo & disown | clear.`
 
 
 **Q**: how to collect the base names of subdirectories of a directory `dir` in an array `subdirs`?<br>
