@@ -2,8 +2,8 @@
 title: "doc"
 ---
 
-* [linux/](linux/index)
-* [lec/](lec/index)
-* [proj/](proj/index)
+* [linux/](linux/index.md)
+* [lec/](lec/index.md)
+* [proj/](proj/index.md)
 
 
