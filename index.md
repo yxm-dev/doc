@@ -2,7 +2,7 @@
 title: "doc"
 ---
 
-* [linux/](linux/index.md)
+* [doc/](linux/index.md)
 * [lec/](lec/index.md)
 * [proj/](proj/index.md)
 
