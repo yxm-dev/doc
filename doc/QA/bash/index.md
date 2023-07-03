@@ -2,15 +2,6 @@
 title: "doc/QA/bash"
 ---
 
-<<<<<<< HEAD
-**Q**: how to execute an external application `foo` in terminal such that the shell section becomes free to
-use and clean?<br>
-**A**: use `foo & disown` to execute the application in background and `clear` to clean the terminal. Thus,
-the issue is fixed with `foo & disown | clear.`
-
-
-**Q**: how to collect the base names of subdirectories of a directory `dir` in an array `subdirs`?<br>
-=======
 Output
 --------
 
@@ -105,7 +96,6 @@ only the file name `name` and `var2` contains its extension `.ext`? <br>
 * similar argument works for other patterns. See [here](https://stackoverflow.com/questions/19661267/replace-spaces-with-underscores-via-bash).
 
 **Q**: how to collect the base names of subdirectories of a directory `dir` in a variable `subdirs`?<br>
->>>>>>> 9d0d4ac (...)
 **A**: 
 
 1. in a general case, mix `find` with `printf`:
@@ -118,18 +108,6 @@ only the file name `name` and `var2` contains its extension `.ext`? <br>
 ```
 4. another alternative is:
 ```bash
-<<<<<<< HEAD
-    find . -type f -exec basename {} \;
-```
-*  of course, same argument holds for different settings of `find`, including fixing `depth` or finding for files.
-    
-
-**Q**: how to check if an element `x` belongs to an array `A`?<br>
-**A**: use the test `[[ "${A[@]}" =~ "$x" ]]`
-
-* notice that in this case the order inside the brackets is the opposite in comparison with the other tests. 
- 
-=======
     $(find . -type d -exec basename {} \;)
 ```
 *  of course, same argument holds for different settings of `find`, including fixing `depth` or finding for files.
@@ -269,4 +247,3 @@ an array `array`? <br>
     var=${array[$#]}.
 ```
 
->>>>>>> 9d0d4ac (...)
