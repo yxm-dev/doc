@@ -2,7 +2,12 @@
 title: "doc/settings"
 ---
 
+<<<<<<< HEAD
 The following is a list of softwares and settings I have been used in the last years. The marked items are those that I'm currently using.
+=======
+The following is a list of softwares and settings I have been used in the last years. The marked items are
+those that I'm currently using.
+>>>>>>> 9d0d4ac (...)
 
 In very few words, I use:
 
@@ -10,7 +15,12 @@ In very few words, I use:
 - `i3`, as my windows manager
 - `Xterm` as my terminal emulator.
 
+<<<<<<< HEAD
 I try to do everything is possible inside `Xterm`. If something cannot be embedded in a terminal I embed it in a browser. For that I use:
+=======
+I try to do everything is possible inside `Xterm`. If something cannot be embedded in a terminal I embed it in
+a browser. For that I use:
+>>>>>>> 9d0d4ac (...)
 
 - `Firefox`, for diary stuff
 - `Tor`, when privacy is needed.
@@ -98,7 +108,11 @@ tools
     * used in `cvt.sh`
 * `sox`: command line audio converter (*)
     * used in `cvt.sh` 
+<<<<<<< HEAD
 * `zathura`: simple pdf reader. (*)
+=======
+* `zathura`: simple `pdf`  reader. (*)
+>>>>>>> 9d0d4ac (...)
     - `zathura-djvu`: add compatibility with `djvu` files (*)
     - `zathura-pdf-mu-pdf`: add some features and compatibility with `epub` files (*)
 * `rsync`: command line to sync files locally and remotely
@@ -119,7 +133,11 @@ compilers/interpreters
     * require part of the packages in `base-devel`.
     * if missing something, run `automake --add-missing`
     
+<<<<<<< HEAD
 * `Texlive`:
+=======
+* `Texlive` (*):
+>>>>>>> 9d0d4ac (...)
     * with ... for:
         * ...
         
@@ -127,10 +145,18 @@ compilers/interpreters
     * `python-pip`: package manager for `python` (*)
         - `khard` (use with `mutt`) (*)
         - `pandoc_static_katex` (for `sw.sh`): [link](https://github.com/Zaharid/pandoc_static_katex) (*)
+<<<<<<< HEAD
 
 * `Haskell` (*)
     * a lot of libraries
         - `pandoc` (*)
+=======
+        - `urlscan` (use with `mutt`): [link](https://github.com/firecat53/urlscan) (*)
+        - `socli` (command line interface for Stack Overflow): [link](https://github.com/gautamkrishnar/socli) (*)
+
+* `Haskell` (*)
+    - `pandoc` (markup languages converter) (*)
+>>>>>>> 9d0d4ac (...)
         
 * `Ruby`
     * `rubygems`: package manager for `Ruby`
@@ -148,7 +174,11 @@ compilers/interpreters
 text
 ------
 
+<<<<<<< HEAD
 * `Vim` (cli): text-based terminal-based extendable text editor (*).
+=======
+* `Vim`: text-based terminal-based extendable text editor (*).
+>>>>>>> 9d0d4ac (...)
     * `Vimwiki` (*)
         * `Vimwiki-cli`: [link](https://github.com/sstallion/vimwiki-cli)
         * `Vim-Calendar`
@@ -156,20 +186,36 @@ text
         * `Vimtex-Colors` (*)
     * `fzf-bibtex`: bibtex manager based on `fzf` - [link](https://github.com/msprev/fzf-bibtex)
     * `Vim-Snippets`
+<<<<<<< HEAD
 * `Nano`: used only to install Arch.
+=======
+* `Nano`: used only to install `Arch`.
+>>>>>>> 9d0d4ac (...)
 
 web
 ----
 
+<<<<<<< HEAD
 * Browsers
+=======
+* browsers
+>>>>>>> 9d0d4ac (...)
     * `w3m`: text-based terminal-based browser.
     * `Firefox`: open-source browser.
     * `Tor`: privacy-based browser.
         
+<<<<<<< HEAD
 * Email
     * `Mutt`: text-based email client (*) 
     * `Abook`: address manager compatible with Mutt - [link](https://github.com/hhirsch/abook)  
     * `Khard`: address manager compatible with Mutt (*)
+=======
+* email
+    * `Mutt`: text-based email client (*)
+        - `urlscan`: url manager (*)
+        - `Abook`: address manager - [link](https://github.com/hhirsch/abook)  
+        - `Khard`: address manager (*)
+>>>>>>> 9d0d4ac (...)
 
 media
 --------
@@ -183,5 +229,9 @@ other
 * `translate-shell`: terminal-based interface for google translator - [link](https://github.com/soimort/translate-shell)
     * `trsl-sh`: simple interactive mode for `translate-shell`
 * `dicio`: CLI for [dicio.com.br](https://www.dicio.com.br/), a Portuguese dictionary - [link](npm install --global dicio)
+<<<<<<< HEAD
 * `grammar`: ClI grammar checker based on [LanguageTool](https://languagetool.org/) - [link](https://github.com/caderek/gramma)
+=======
+* `grammar`: CLI grammar checker based on [LanguageTool](https://languagetool.org/) - [link](https://github.com/caderek/gramma)
+>>>>>>> 9d0d4ac (...)
 
