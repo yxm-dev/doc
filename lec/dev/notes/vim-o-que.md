@@ -33,7 +33,7 @@ simplicidade, na modularidade e na customização.
 Características
 -----------------
 
-`Vim` foi desenvolvido em linguagem `C` sendo independente do shell utilizado no `Unix` (veja abaixo). Isso
+`Vim` foi desenvolvido em linguagem `C` sendo independente do shell utilizado no `Unix`. Isso
 possibilitou que versões de `Vim` para diferentes sistemas operacionais fossem lançadas. Uma linguagem de
 script chamada `Vimscript` foi desenvolvida para padronizar e favorecer a criação de módulos, aqui chamados de
 `plugins`.

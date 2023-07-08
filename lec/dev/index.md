@@ -1,8 +1,8 @@
 ---
-title: "lec/dev"
+title: "lec/dev/"
 ---
 
-* [random notes](notes/index)
+* [notes/](notes/index)
 * [columns](colums/index)
 
 

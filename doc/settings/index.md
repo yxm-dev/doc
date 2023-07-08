@@ -110,6 +110,8 @@ tools
 * `git`: version control system
 * `github-cli`: command line client for Github
 * `docker`: containerization application
+* `tar`: manage `.tar` files
+* `zip` + `unzip`: manage `.zip` files
     
 compilers/interpreters
 ------------------------

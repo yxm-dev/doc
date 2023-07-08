@@ -10,7 +10,6 @@ title: "doc/QA/devices"
 3. if everything is working, add the `setxkbmap` setting to the `.xinitr` file or in the configuration file of
    your windows manager (e.g., `i3/config` in the case of `i3` windows manager).
 
-
 **Q**: after installing `X11` desktop environment my touchpad or other device is not working properly.<br>
 **A**:
 
@@ -25,7 +24,6 @@ title: "doc/QA/devices"
   [here](https://wiki.archlinux.org/title/Touchpad_Synaptics). 
 * For example, in the case of touchpad in Arch Linux, try the old package `xf86-input-synaptics`.  
 
-
 **Q**: how to configure the backlight brightness? It would be interesting to have hotkeys to increase/decrease
 it.<br>
 **A**:
@@ -34,3 +32,14 @@ it.<br>
 2. install a software to manage backlight or use of a simple bash script;
 3. create keybindings to map keys to the software/script functionalities.
 * see [here](brightness) for a detailed explanation.
+
+**Q**: How to get the ID of `xinput` device? <br>
+**A**: 
+
+1. execute `xinput list` and identify the name of the device;
+2. use the `--id-only` option to get the ide for a given device name:
+```bash
+    xinput list --id-only "<Device Name>"
+``` 
+* you can store this output in a variable `var` using `var=$(your_command)`.
+   

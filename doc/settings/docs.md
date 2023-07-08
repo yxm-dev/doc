@@ -27,15 +27,15 @@ Building
 Web
 --------
 
-* [W3M](https://w3m.sourceforge.net/MANUAL)
-* [Mutt](http://www.mutt.org/doc/manual/) - see also [here](https://man.archlinux.org/man/muttrc.5)
-* [Khard](https://khard.readthedocs.io/)
+* [w3m](https://w3m.sourceforge.net/MANUAL)
+* [mutt](http://www.mutt.org/doc/manual/) - see also [here](https://man.archlinux.org/man/muttrc.5)
+* [khard](https://khard.readthedocs.io/)
 
 Writing
 -----------
 
-* [Vim](https://vimdoc.sourceforge.net/) - see also [here](https://vimhelp.org/).    
-    * [Vimwiki](https://github.com/vimwiki/vimwiki/blob/dev/doc/vimwiki.txt)
+* [vim](https://vimdoc.sourceforge.net/) - see also [here](https://vimhelp.org/).    
+    * [vimwiki](https://github.com/vimwiki/vimwiki/blob/dev/doc/vimwiki.txt)
 
 
 Tools

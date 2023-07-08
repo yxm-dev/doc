@@ -8,7 +8,8 @@ Linkedin Columns
 Linux Tips
 --------
 
-About my experience with `Linux` and `Bash`. Based in [QA](https://yxmartins/doc/QA).
+About my experience with `Linux` and `Bash`. Based in [QA/bash](https://yxmartins/doc/QA/bash) and in
+[QA/linux](https://yxmartins/doc/QA/linux). 
 
 1. [array de subdiretórios](https://www.linkedin.com/feed/update/urn:li:activity:7059895991105130496/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7059895991105130496%29)
 2. [configuração do layout do teclado](https://www.linkedin.com/feed/update/urn:li:activity:7061779983584645121/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7061779983584645121%29)
@@ -16,6 +17,8 @@ About my experience with `Linux` and `Bash`. Based in [QA](https://yxmartins/doc
 4. [menu interativo em Bash puro](https://www.linkedin.com/feed/update/urn:li:activity:7070515527244292096/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7070515527244292096%29)
 5. [função parametrizada em Bash](https://www.linkedin.com/feed/update/urn:li:activity:7072920282671329280/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7072920282671329280%29)
 6. [coletar extensão de um arquivo em uma variável](https://www.linkedin.com/feed/update/urn:li:activity:7079438568133132288/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7079438568133132288%29)
+7. [obter dimensão de array multidimensional](https://www.linkedin.com/feed/update/urn:li:activity:7080168030437072897/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7080168030437072897%29)
+8. [dificuldades de se trabalhar com arrays multidimensionais](https://www.linkedin.com/feed/update/urn:li:activity:7083067144409595904/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7083067144409595904%29)
 
 Vim Tips
 ---------
@@ -45,6 +48,11 @@ Highlight of some differences between `Python` and `Bash` according to my person
 3. [compatibilidade com OS](https://www.linkedin.com/feed/update/urn:li:activity:7064705939303481345/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7064705939303481345%29)
 4. [paradigmas](https://www.linkedin.com/feed/update/urn:li:activity:7071931091342831616/?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7071931091342831616%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29)
 
+Go Tips
+----------
+
+1. [importando arquivos](https://www.linkedin.com/feed/update/urn:li:activity:7082862227958996993/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7082862227958996993%29)
+
 Quick Tips
 ------------
 
@@ -63,6 +71,7 @@ Tips about programming logic.
 
 1. [aos avessos ao paradigma funcional](https://www.linkedin.com/posts/yxmartins_functionalprogramming-programaaexaetofuncional-activity-7067891253605982208-P8pi?utm_source=share&utm_medium=member_desktop)
 2. [ordem das opções de uma função](https://www.linkedin.com/feed/update/urn:li:activity:7074732223391834113/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7074732223391834113%29)
+3. [variáveis locais e globais](https://www.linkedin.com/feed/update/urn:li:activity:7082377826510790656/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7082377826510790656%29)
 
 Clean Code
 ------------
@@ -70,6 +79,7 @@ Clean Code
 About my view on what is "clean code". Based in the namesake book by Robert C. Martin
 
 1. [clean code: o que é](https://www.linkedin.com/feed/update/urn:li:activity:7074369840232247297/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7074369840232247297%29)
+2. [nomenclatura: diretrizes gerais, parte 1](https://www.linkedin.com/feed/update/urn:li:activity:7082704756317536256/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7082704756317536256%29)
 
 My Projects
 ------------
@@ -77,3 +87,22 @@ My Projects
 Some words about my projects on software development.
 
 1. [pkg.sh: um package builder para aplicações em Bash](https://www.linkedin.com/feed/update/urn:li:activity:7079209663572901888/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7079209663572901888%29)
+
+Ubuntu Mint
+==============
+
+Vim Tips
+----------
+
+A weekly digest on `Vim`.
+
+
+Bash Tips
+-----------
+
+A weekly digest on `Bash`.
+
+CLI Tools
+------------
+
+Tutorials and tips on command line tools.

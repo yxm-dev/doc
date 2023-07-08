@@ -247,3 +247,11 @@ an array `array`? <br>
     var=${array[$#]}.
 ```
 
+File Handing
+--------------
+
+**Q**: How to add append a file `file` from `N`th line with a given content? <br>
+**A**: Use `sed`:
+```bash
+    sed -i 'Ns/^/your_content/' file
+```

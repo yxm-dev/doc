@@ -2,9 +2,9 @@
 title: "doc/"
 ---
 
-On my experience with Linux in the form of questions and answers:
+On a collection of questions and answers on my experience with Linux and with some programming languages:
 
-* [QA/](QA/index)
+* [QA](QA/index)
 
 On the settings that I use and how to manage them, and a list of links to their documentations:
 
