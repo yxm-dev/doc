@@ -5,6 +5,8 @@ title: "lec/dev/columns"
 Linkedin Columns
 ==================
 
+Columns published in my [Linkedin](https://linkedin/in/yxmartins). In Brazilian Portuguese.
+
 Linux Tips
 --------
 
@@ -91,18 +93,25 @@ Some words about my projects on software development.
 Ubuntu Mint
 ==============
 
-Vim Tips
-----------
+Columns written for the portal [Ubuntu Mint](htpps://ubuntumint.com). In English.
+
+Vim
+-----
 
 A weekly digest on `Vim`.
 
 
-Bash Tips
------------
+Bash
+------
 
 A weekly digest on `Bash`.
 
+How To
+--------
+
+How to do 
+
 CLI Tools
-------------
+----------
 
 Tutorials and tips on command line tools.

@@ -4,7 +4,11 @@
  date:
  ---
  
-There are two basic groups that exist in a linux distribution: the `root` and the `nobody`. In Arch-based distributions binaries are managed through the `makepkg` command. Due security reasons, users in the `root` group cannot directly use `makepkh`. The immediate approach would be to create a non root user and run the command from it. In the following we describe another approach: to momentarily use an user in the already existing `nobody` group.
+There are two basic groups that exist in a linux distribution: the `root` and the `nobody`. In Arch-based
+distributions binaries are managed through the `makepkg` command. Due security reasons, users in the `root`
+group cannot directly use `makepkg`. The immediate approach would be to create a non root user and run the
+command from it. In the following we describe another approach: to momentarily use an user in the already
+existing `nobody` group.
 
 Preparing a directory 
 ======================
@@ -33,7 +37,8 @@ Using `makepkg`
     cd /home/dir/bindir
     sudo -u nobody makepkg
 ```
-6. if you got an error "*You do not have write permission for the directory $BUILDDIR*", then force the permission of `/home/dir/bindir/` and execute `makepkg` again as a nobody user:  
+6. if you got an error "*You do not have write permission for the directory $BUILDDIR*", then force the
+   permission of `/home/dir/bindir/` and execute `makepkg` again as a nobody user:  
 ```
     chmod g+ws /home/dir/bindir
     sudo -u nobody makepkg

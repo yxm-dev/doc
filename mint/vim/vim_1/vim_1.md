@@ -7,6 +7,14 @@ options, from the most simple to the highly elaborated. This article is the firs
 dedicated to `Vim`: a highly customizable and highly stable text editor, which is terminal-based and has been
 developed since 60s.
 
+In the next articles we will discuss, among other things:
+
+* the basic `Vim` configuration
+* the basic `Vim` usage
+* how to manage plugins
+* how to customize `Vim`
+* how to create your custom features to `Vim`.
+
 * VIM IMAGE HERE
 
 Origins
